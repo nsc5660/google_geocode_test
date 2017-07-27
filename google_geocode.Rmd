@@ -1,12 +1,11 @@
 ---
 title: "google_geocoding"
-output:
-  html_document: default
-  rmarkdown::github_document: default
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+require("knitr")
+opts_knit$set(root.dir='C:/work/geocode/google_geocode_test')
 ```
 
 ## R Markdown
